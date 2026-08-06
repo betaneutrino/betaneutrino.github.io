@@ -14,4 +14,6 @@ git commit -m "Updated the push script on $(date '+%Y-%m-%dT%H:%M')"
 git add LICENSE README.md
 git commit -m "Made some changes to the descriptions on  $(date '+%Y-%m-%dT%H:%M')"
 
+git push origin main
+
 printf "I hope there werent any goddamn errors, okay, cya for now. \n"
