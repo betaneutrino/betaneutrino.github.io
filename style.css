@@ -1,6 +1,6 @@
 * {
 	font-family: mono;
-	background-color: #ffffff;
+	background-color: #dfb8ff;
 	color: #000000;
 	margin: 0 auto;
 }
@@ -10,7 +10,27 @@
 	font-style: Italic;
 	font-weight: Bold;
 	max-width: 200px;
+	align: center;
 }
+.logo {
+	align: center;
+	max-width: 40px;
+	border-radius:15px;
+}
+.logos {
+	display: flex;
+	align: center;
+	max-width: 500px;
+	gap: 20px;
+	padding: 20px;
+}
+
+.logos img {
+    width: 200px; 
+    height: 80px;
+}
+.stuff {
+	max-width:300px;}
 
 .quote {
 	font-size: 13px;
