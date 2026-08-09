@@ -1,9 +1,11 @@
 #!/bin/bash
 
+cd $HOME/docs/stuff/prog/git/mysite/
+
 printf "Ugh I fucking hate typing this over and over so I made this script\n forgive me."
 
 #Top Priority
-git add index.html style.css
+git add index.html style.css res/
 git commit -m "Wrote some changes to the site on $(date '+%Y-%m-%dT%H:%M')"
 
 # Medium Priority
