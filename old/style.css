@@ -1,0 +1,57 @@
+* {
+	font-family: mono;
+	background-color: #dfb8ff;
+	color: #000000;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 30px;
+	font-style: Italic;
+	font-weight: Bold;
+	max-width: 200px;
+	align: center;
+}
+.logo {
+	align: center;
+	max-width: 40px;
+	border-radius:15px;
+}
+.logos {
+	display: flex;
+	align: center;
+	max-width: auto;
+	gap: 20px;
+	padding: 20px;
+}
+
+.logos img {
+    width: 200px; 
+    height: 80px;
+}
+.stuff {
+	max-width:300px;}
+
+.quote {
+	font-size: 13px;
+	max-width: 200px;
+}
+
+.navbar {
+	font-weight: Bold;
+	border-color: #000000;
+	max-width: 700px;
+
+}
+
+.blog {
+	max-width: 100ch;
+}
+
+.info {
+	max-width: 800px;
+	font-size: 20px;
+	font-style: Italic;
+	position: center;
+	bottom: 0;
+}

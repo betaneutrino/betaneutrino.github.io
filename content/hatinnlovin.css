@@ -1,0 +1,10 @@
+* {
+    background-color: #000000;
+    color: #ff0000;
+
+    font-family: mono;
+}
+
+.title {
+    font-size: 30px;
+}
