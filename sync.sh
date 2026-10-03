@@ -5,8 +5,12 @@ cd $HOME/docs/stuff/prog/git/mysite/
 printf "Ugh I fucking hate typing this over and over so I made this script\n forgive me."
 
 #Top Priority
-git add index.html style.css res/ asset/
+git add index.html style.css res/ asset/ content/ old/ 
 git commit -m "Wrote some changes to the site on $(date '+%Y-%m-%dT%H:%M')"
+
+#Medium
+git add template.html template.css
+git commit -m "Updated the templates on$(date '+%Y-%m-%dT%H:%M')"
 
 # Medium Priority
 git add sync.sh
