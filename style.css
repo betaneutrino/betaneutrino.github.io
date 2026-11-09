@@ -1,15 +1,8 @@
 * {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #343447;
+    color: #E3E0FF;
 
     font-family: mono;
+    font-weight: thin;
 }
 
-/* The Top banner thing!  */
-.stuff {
-    align: center;
-}
-.logo {
-    max-width: 40px;
-    border-radius:5px;
-}
